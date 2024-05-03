@@ -1,0 +1,38 @@
+{
+  "Changes": [
+    
+      {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/lead",
+        "FromFile": "assets/texture/ores/lead.png"
+      },
+      {
+        "Action": "EditData",
+        "Target": "Mods/mistyspring.ItemExtensions/Resources",
+        "Entries": {
+          "Lead": {
+            "SpriteIndex": 0,
+            "Texture": "Mods/{{ModId}}/lead",
+            "Debris": "stone",
+            "Width": 1,
+            "Height": 1,
+            "Tool": "Pickaxe",
+            "Health": 10,
+            "Exp": 25,
+            "Skill": "mining",
+            "ItemDropped": "(O)startech:raw_lead_ore",
+            "MinDrops": 1,
+            "MaxDrops": 3,
+            "MineSpawns": [
+              {
+                "Floors": "20/120",
+                "SpawnFrequency": 0.04,
+                "Type": "Normal"
+              }
+            ],
+            "Type": "Stone" //used to determine type by other mods. default stone, can be weeds or wood
+          }
+        }
+      }
+  ]
+}

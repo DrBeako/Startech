@@ -1,0 +1,49 @@
+{
+  "Changes": [
+    
+      {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/nickel",
+        "FromFile": "assets/texture/ores/nickel.png"
+      },
+      {
+        "Action": "EditData",
+        "Target": "Mods/mistyspring.ItemExtensions/Resources",
+        "Entries": {
+          "Nickel": {
+            "SpriteIndex": 0,
+            "Texture": "Mods/{{ModId}}/nickel",
+            "Debris": "stone",
+            "Width": 1,
+            "Height": 1,
+            "Tool": "Pickaxe",
+            "Health": 30,
+            "Exp": 60,
+            "Skill": "mining",
+            "ItemDropped": "(O)startech:raw_nickel_ore",
+            //Placeholder, replace Nickel
+            "MinDrops": 1,
+            "MaxDrops": 3,
+            "MineSpawns": [
+              {
+                "Floors": "10/20",
+                "SpawnFrequency": 0.005,
+                "Type": "Normal"
+              },
+              {
+                "Floors": "80/120",
+                "SpawnFrequency": 0.01,
+                "Type": "Normal"
+              },
+              {
+                "Floors": "121/-999",
+                "SpawnFrequency": 0.01,
+                "Type": "Normal"
+              }
+            ],
+            "Type": "Stone"
+          }
+        }
+      }
+  ]
+}

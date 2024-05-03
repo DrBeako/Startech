@@ -1,0 +1,21 @@
+{
+  "Format": "2.0",
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "assets/data/lead_ore.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/data/salt_ore.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/data/nickel_ore.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/data/mana_ore.json"
+    }
+  ]
+}

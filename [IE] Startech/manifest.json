@@ -1,0 +1,17 @@
+{
+  "Name": "Startech IE",
+  "Author": "Lavinia Beako",
+  "Version": "0.0.1",
+  "Description": "Startech w. IE",
+  "UniqueID": "Lavinia.StartechIE",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "mistyspring.ItemExtensions",
+      "IsRequired": false
+    }
+  ]
+}

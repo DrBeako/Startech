@@ -1,0 +1,39 @@
+{
+  "Changes": [
+    
+      {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/mana",
+        "FromFile": "assets/texture/ores/mana.png"
+      },
+      {
+        "Action": "EditData",
+        "Target": "Mods/mistyspring.ItemExtensions/Resources",
+        "Entries": {
+          "Mana": {
+            "SpriteIndex": 0,
+            "Texture": "Mods/{{ModId}}/mana",
+            "Debris": "stone",
+            "Width": 1,
+            "Height": 1,
+            "Tool": "Pickaxe",
+            "Health": 20,
+            "Exp": 5,
+            "Skill": "mining",
+            "ItemDropped": "(O)startech:mana_dust",
+            "MinDrops": 1,
+            "MaxDrops": 3,
+            "ImmuneToBombs": "true",
+            "MineSpawns": [
+              {
+                "Floors": "121/-999",
+                "SpawnFrequency": 0.1,
+                "Type": "Normal"
+              }
+            ],
+            "Type": "Stone" //used to determine type by other mods. default stone, can be weeds or wood
+          }
+        }
+      }
+  ]
+}

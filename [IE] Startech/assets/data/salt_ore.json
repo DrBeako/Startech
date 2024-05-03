@@ -1,0 +1,39 @@
+{
+  "Changes": [
+    
+      {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/salt",
+        "FromFile": "assets/texture/ores/salt.png"
+      },
+      {
+        "Action": "EditData",
+        "Target": "Mods/mistyspring.ItemExtensions/Resources",
+        "Entries": {
+          "Salt": {
+            "SpriteIndex": 0,
+            "Texture": "Mods/{{ModId}}/salt",
+            "Debris": "stone",
+            "Width": 1,
+            "Height": 1,
+            "Tool": "Pickaxe",
+            "Health": 1,
+            "Exp": 5,
+            "Skill": "mining",
+            "ItemDropped": "(O)378",
+            //Placeholder, replace Salt
+            "MinDrops": 1,
+            "MaxDrops": 3,
+            "MineSpawns": [
+              {
+                "Floors": "40/70",
+                "SpawnFrequency": 0.1,
+                "Type": "Normal"
+              }
+            ],
+            "Type": "Stone" //used to determine type by other mods. default stone, can be weeds or wood
+          }
+        }
+      }
+  ]
+}
