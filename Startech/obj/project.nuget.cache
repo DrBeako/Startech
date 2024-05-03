@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Oa/YvauSzSGWocd0mmCwF9svwDSCmEaTsVpYcs48wvuTczJH+ssMJRwWYp5BwySATsoALvhsmyc1ILWTXoSG9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lu510\\source\\repos\\Startech\\Startech\\Startech.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lu510\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

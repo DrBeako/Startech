@@ -1,0 +1,8 @@
+C:\Users\lu510\source\repos\Startech\Startech\bin\Debug\net6.0\Startech.deps.json
+C:\Users\lu510\source\repos\Startech\Startech\bin\Debug\net6.0\Startech.dll
+C:\Users\lu510\source\repos\Startech\Startech\obj\Debug\net6.0\Startech.csproj.AssemblyReference.cache
+C:\Users\lu510\source\repos\Startech\Startech\obj\Debug\net6.0\Startech.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lu510\source\repos\Startech\Startech\obj\Debug\net6.0\Startech.AssemblyInfoInputs.cache
+C:\Users\lu510\source\repos\Startech\Startech\obj\Debug\net6.0\Startech.AssemblyInfo.cs
+C:\Users\lu510\source\repos\Startech\Startech\obj\Debug\net6.0\Startech.csproj.CoreCompileInputs.cache
+C:\Users\lu510\source\repos\Startech\Startech\obj\Debug\net6.0\Startech.dll
