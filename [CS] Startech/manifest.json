@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Startech",
+  "Author": "Lavinia beako",
+  "Version": "0.0.1",
+  "Description": "A tech mod in stardew valley",
+  "UniqueID": "Lavinia.Startech",
+  "EntryDll": "startech.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}
