@@ -1,0 +1,27 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "startech:mana_dust": {
+          "Name": "{{ModId}}_mana_dust",
+          "Displayname": "Mana Dust",
+          "Description": "It makes dim light like a firefly.",
+          //Item lore needs to be updated
+          "Type": "Objects",
+          "Category": -15,
+          "Price": 25,
+
+          "Texture": "Mods/{{ModId}}/mana"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/mana",
+      "FromFile": "assets/texture/ores/mana.png"
+    }
+  ]
+}
+//DID YOU UPDATE CONTENT.JSON AFTER SAVING THIS?

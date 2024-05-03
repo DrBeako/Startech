@@ -1,0 +1,33 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "assets/data/raw_ores/lead_ore.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/data/raw_ores/mana_ore.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/data/raw_ores/nickel_ore.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/data/raw_ores/fluoride.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/data/raw_ores/sulfur_ore.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/data/raw_ores/geode_loot.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/data/raw_ores/iodine.json"
+    }
+  ]
+}

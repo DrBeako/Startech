@@ -1,0 +1,27 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "startech:raw_mana": {
+          "Name": "{{ModId}}_raw_mana",
+          "Displayname": "Raw Mana",
+          "Description": "Lots of nasty stuff is attached with mana.",
+          //Item lore needs to be updated
+          "Type": "Objects",
+          "Category": -15,
+          "Price": 25,
+
+          "Texture": "Mods/{{ModId}}/raw_mana"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/raw_mana",
+      "FromFile": "assets/texture/ores/raw_mana.png"
+    }
+  ]
+}
+//DID YOU UPDATE CONTENT.JSON AFTER SAVING THIS?

@@ -1,0 +1,27 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "startech:raw_lead_ore": {
+          "Name": "{{ModId}}_raw_lead_ore",
+          "Displayname": "Raw Lead Ore",
+          "Description": "Raw Lead that came out of the rocks, could use a bit of washing or processing...",
+          //Item lore needs to be updated
+          "Type": "Objects",
+          "Category": -15,
+          "Price": 5,
+
+          "Texture": "Mods/{{ModId}}/lead"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/lead",
+      "FromFile": "assets/texture/ores/lead.png"
+    }
+  ]
+}
+//DID YOU UPDATE CONTENT.JSON AFTER THIS?

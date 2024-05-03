@@ -1,0 +1,24 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "535": {
+          "GeodeDropsDefaultItems": true,
+          "GeodeDrops": [
+            {
+              "Chance": 1,
+              "RandomItemID": [
+                "(O)startech:fluoride",
+                "(O)startech:raw_iodine"
+              ]
+            }
+            //https://discord.com/channels/137344473976799233/156109690059751424/1234181044559675402
+          ]
+        }
+        }
+     }
+  ]
+}
+//DID YOU UPDATE CONTENT.JSON AFTER SAVING THIS?

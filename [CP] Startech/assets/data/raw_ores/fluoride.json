@@ -1,0 +1,33 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "startech:fluoride": {
+          "Name": "{{ModId}}_fluoride",
+          "Displayname": "Fluoride",
+          "Description": "Beautiful fluoride crystal, great source of fluorene.",
+          //Item lore needs to be updated
+          "Type": "Objects",
+          "Category": -12,
+          "Price": 250,
+
+          "Texture": "Mods/{{ModId}}/fluoride",
+          "GeodeDrops": [
+            {
+              "Chance": 1,
+              "GeodeDropsDefaultItems": true
+            }
+          ]
+        }
+      }
+     },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/fluoride",
+      "FromFile": "assets/texture/ores/fluoride.png"
+    }
+  ]
+}
+//DID YOU UPDATE CONTENT.JSON AFTER SAVING THIS?

@@ -1,0 +1,11 @@
+{
+  "Name": "Startech w. Content Patcher",
+  "Author": "Lavinia beako",
+  "Version": "0.0.1",
+  "Description": "Startech Content pack with Content Patcher",
+  "UniqueID": "Lavinia.StartechCP",
+  "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

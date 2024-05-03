@@ -1,0 +1,27 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "startech:raw_iodine": {
+          "Name": "{{ModId}}_raw_iodine",
+          "Displayname": "Raw Iodine",
+          "Description": "Raw Iodine that came out of the geode, could use a bit of washing or processing...",
+          //Item lore needs to be updated
+          "Type": "Objects",
+          "Category": -12,
+          "Price": 250,
+
+          "Texture": "Mods/{{ModId}}/iodine"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/iodine",
+      "FromFile": "assets/texture/ores/iodine.png"
+    }
+  ]
+}
+//DID YOU UPDATE CONTENT.JSON AFTER SAVING THIS?

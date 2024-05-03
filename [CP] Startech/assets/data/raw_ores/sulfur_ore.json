@@ -1,0 +1,27 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "startech:raw_sulfur_ore": {
+          "Name": "{{ModId}}_raw_sulfur_ore",
+          "Displayname": "Raw Sulfur Ore",
+          "Description": "Raw Sulfur that came out of the rocks, could use a bit of washing or processing...",
+          //Item lore needs to be updated
+          "Type": "Objects",
+          "Category": -15,
+          "Price": 25,
+
+          "Texture": "Mods/{{ModId}}/sulfur"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/sulfur",
+      "FromFile": "assets/texture/ores/sulfur.png"
+    }
+  ]
+}
+//DID YOU UPDATE CONTENT.JSON AFTER SAVING THIS?
